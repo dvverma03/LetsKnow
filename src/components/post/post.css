@@ -1,0 +1,80 @@
+.post{
+    width: 100%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.postWrapper{
+    -webkit-box-shadow: 3px 5px 30px -9px rgba(0,0,0,0.42);
+    -moz-box-shadow: 3px 5px 30px -9px rgba(0,0,0,0.42);
+    box-shadow: 3px 5px 30px -9px rgba(0,0,0,0.42);
+    border-radius: 5px;
+}
+.postText{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.postImg{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-items: center;
+    margin: 10px;
+}
+.postUpper{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.postLeft{
+    display: flex;
+    align-items: center;
+    /* width: 50%; */
+
+}
+.postUsername{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    width: 160px;
+}
+.postTime{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    width: 60px;
+}
+.postContent{
+    width: 96.5%;
+    margin: 10px;
+}
+.postRight{
+    /* position:absolute;
+    right: 435px; */
+    margin-left: 390px;
+}
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.postBottom{
+    display: flex;
+}
+.postCounter{
+    margin: 10px;
+}
+.postBottomRight{
+    display: flex;
+    /* position: relative;
+    left: 300px; */
+    margin-left: 280px;
+    align-items: center;
+}
+.postCommentIcon{
+    font-size: 18px;
+    margin: 10px;
+}
+.postComment{
+    font-size: 18px;
+}

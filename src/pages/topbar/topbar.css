@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    
+}
+.topbarContainer{
+    margin: 0px;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #1877f2;
+    position: sticky;
+    z-index: 999;
+}
+
+.topbarLeft{
+    flex: 3;
+   
+}
+.topbarLogo{
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.topbarCenter{
+    flex: 5;
+    font-size: 20px;
+}
+
+.searchIcon{
+    font-size: 25px !important;
+    margin-left: 10px; 
+}
+.topbarSearch{
+    width: 100%;
+    height: 35px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.searchInput{
+    border: none;
+    width: 70%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.searchInput:focus{
+    outline: none;
+}
+
+.topbarRight{
+    flex: 4;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.topbarIcon{
+    display: flex;
+    margin-left: 20px;
+    color: white;
+
+}
+
+.topbarIconItem{
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.topbarIconBadge{
+    position: absolute;
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: 5px;
+    right: 5px;
+    text-align: center;
+    margin: auto;
+}
+.topbarLink{
+    display: flex;
+    text-align: center;
+    color: black;
+    
+}
+.topbarLink1{
+    padding: 10px;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.topbarLink2{
+    padding: 10px;
+    font-size: 19px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+}
+.topbarLink3{
+    padding: 10px;
+    font-size: 19px;
+    text-decoration: none;
+    text-align: center;
+    font-weight:600;
+}
+.topbarLink1:hover{  
+    font-size: 20px;
+}
+.topbarLink2:hover{
+    font-size: 20px;
+}
+.topbarLink3:hover{
+    font-size: 20px;
+}
+ .Link{
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+.Link:hover{
+    
+    font-weight: 700;
+    color: black;
+}
+.topbarImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}

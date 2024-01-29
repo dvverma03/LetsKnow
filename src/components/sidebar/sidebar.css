@@ -1,0 +1,83 @@
+.sidebar{
+    flex: 3;
+    margin-bottom: 20px;
+    height: 100vh;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    position: sticky;
+    top: 50px;
+}
+
+.sidebarWraper{
+    margin: 10px;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+ background-color: #fff;
+}
+::-webkit-scrollbar-thumb{
+border-color: gray;
+}
+
+.sidebarList{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+.sidebarItem{
+  margin-bottom: 20px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+.sidebarIcon{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.sidebarlistItemText{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.sidebarButton{
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+
+
+}
+
+.sidebarHr{
+    margin: 20px 0px;
+}
+.sidebarFriendList{
+    padding: 0;
+    margin: 15px;
+    list-style: none;
+    width: 200px;
+}
+
+.sidebarfriend{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.sidebarfrindImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.sidebarfriendName{
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+}
